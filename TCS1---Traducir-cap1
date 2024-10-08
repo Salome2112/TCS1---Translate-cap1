@@ -1,0 +1,14 @@
+
+Figura 1-7. La aventura de Alicia: la perspectiva del cliente
+
+Cuando Alice inició el navegador en su teléfono, no tenía ninguna página en particular cargada. Era una pizarra en blanco. 
+Luego, Alice escribió una URL y una solicitud GET llevó al navegador a la página de inicio del sitio.
+Alice hizo clic en un enlace y una segunda solicitud GET llevó al navegador a la lista de mensajes.
+Envió un formulario, lo que provocó una tercera solicitud (una solicitud POST).solicitud).
+La respuesta a eso fue una redirección HTTP, que el navegador de Alice realizó automáticamente.
+El navegador de Alice terminó en una página web que describía el mensaje que Alice acababa de crear.
+Cada estado de este diagrama corresponde a una página en particular (o a ninguna página en absoluto) que está abierta en la ventana del navegador de Alice.
+En términos de REST, a este bit de información (¿en qué página estás?) lo llamamos estado de la aplicación.
+Cuando navegas por la Web, cada transición de un estado de aplicación a otro corresponde a un enlace que decidiste seguir o a un formulario que decidiste completar.
+No todas las transiciones están disponibles desde todos los estados.
+Alice no puede realizar su solicitud POST directamente desde la página de inicio, porque esta no cuenta con el formulario que permite a su navegador construir la solicitud POST.
