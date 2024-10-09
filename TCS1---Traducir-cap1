@@ -1,5 +1,5 @@
-(IMAGENN.png)
-Figura 1-7. La aventura de Alicia: la perspectiva del cliente
+![figura 1-7](IMAGENN.png)
+###### Figura 1-7. La aventura de Alice: la perspectiva del servidor
 
 Cuando Alice inició el navegador en su teléfono, no tenía ninguna página en particular cargada. Era una pizarra en blanco. 
 Luego, Alice escribió una URL y una solicitud GET llevó al navegador a la página de inicio del sitio.
